@@ -62,14 +62,6 @@ The following dependencies are required to run the ATM Management System:
 
 Make sure you have these dependencies installed and properly configured before running the application.
 
-## Contributing
-Contributions to the ATM Management System project are welcome! If you would like to contribute, please follow these guidelines:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name`.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your changes to your forked repository.
-5. Submit a pull request to the main repo
-
 ## Contact Information
-For any questions, suggestions, or feedback, please feel free to reach out to the project maintainer at asirwadsali@gmail.com.
+For any questions, suggestions, or feedback, please feel free to reach out to the project maintainer at yaramohammadsa@gmail.com .
 
