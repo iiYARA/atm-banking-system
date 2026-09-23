@@ -1,67 +1,39 @@
-<h1 align=center> ATM-Management-system </h1>
+# ATM Banking System
 
-![JavaFX](https://img.shields.io/badge/JavaFX-16-orange.svg)
+**Java · Swing / JavaFX · MySQL**
 
-<p align="center">
-  <img src="src/icons/bankIcon.png" alt="Project Logo" width="100">
-</p>
+A banking application with a customer ATM interface and an admin dashboard. The source includes deposits, withdrawals, balance enquiries, PIN changes, statements, and account-management screens.
 
-## Table of Contents
-- [Project Description](#project-description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [Contact Information](#contact-information)
+## Explore the code
 
-## Project Description
-The ATM Management System is a software application developed in JavaFX that provides an ATM interface for users to perform various banking transactions such as depositing, withdrawing, checking balance, and changing PIN. Additionally, the application also includes an admin dashboard that allows administrators to manage, view, and control ATM transactions, as well as manage user accounts.
+| Area | Files |
+| --- | --- |
+| Customer access | [Login](src/bank/Login.java), [registration](src/bank/SignUpOne.java) |
+| Transactions | [Deposit](src/bank/Deposit.java), [Withdraw](src/bank/Withdraw.java), [Balance enquiry](src/bank/BalanceEnquiry.java) |
+| Account tools | [PIN change](src/bank/PinChange.java), [Mini statement](src/bank/MiniStatement.java) |
+| Administration | [Dashboard](src/bank/Dashboard.java), [Account list](src/bank/ListAccountsController.java) |
+| Database connection | [Conn.java](src/bank/Conn.java) |
 
-## Installation
-1. Clone the repository: `git clone https://github.com/Asirwad/ATM-management-system`
-2. Navigate to the project directory: `cd ATM-Management-System/src/bank/management/atm/`
-3. Compile the Java code: `javac Login.java`
-4. Run the application: `java Login`
+## Setup status
 
-## Usage
-1. Launch the ATM Management System application.
-2. Follow the on-screen instructions to perform desired transactions such as deposit, withdrawal, balance inquiry, and PIN change.
-3. Admins can log in to the admin dashboard to manage transactions and user accounts.
+This is a source-code portfolio repository. It currently requires environment and project configuration work before it can be treated as a reproducible local demo.
 
-## Features
-- User Interface for ATM transactions (deposit, withdrawal, balance inquiry, and PIN change)
-- Admin dashboard for managing transactions and user accounts
-- Secure authentication system
-- User-friendly and intuitive interface
-- Error handling and validation for input fields
-- Detailed transaction logs
+The checked-in NetBeans configuration targets **JDK 17** and a **JavaFX 17** library. It also references machine-specific library locations. Several JARs are stored in `src/bank/`, but those paths do not match all references in the project configuration.
 
-## Dependencies
-The following dependencies are required to run the ATM Management System:
-- JavaFX
-- Java Development Kit (JDK)
+### Before running
 
-## Screenshots
-<p align="center">
-  <img src="https://github.com/Asirwad/ATM-management-system/assets/85600836/37ea2ba3-afde-44ab-a90e-44183699b310" alt="adminsignin" width="800">
-</p>
-<p align="center">
-  <img src="src/assets/readme_assets/1.png" alt="Dashboard" width="800">
-</p>
-<p align="center">
-  <img src="src/assets/readme_assets/2.png" alt="Settings" width="800">
-</p>
-<p align="center">
-  <img src="https://github.com/Asirwad/ATM-management-system/assets/85600836/6499a440-1444-4f49-b891-9cdfdf943730" alt="Signin" width="800">
-</p>
-<p align="center">
-  <img src="https://github.com/Asirwad/ATM-management-system/assets/85600836/89cbe493-3095-4c40-8356-3b5c12a734b9" alt="ATM" width="800">
-</p>
+1. Clone this repository:
+   `git clone https://github.com/iiYARA/atm-banking-system.git`
+2. Open it in NetBeans and configure JDK 17, JavaFX, and the required libraries.
+3. Review package/source paths and repair the library references in [nbproject/project.properties](nbproject/project.properties).
+4. Configure a local MySQL database using [Conn.java](src/bank/Conn.java). A database schema export is not included in this repository.
+5. Review image/resource paths before launching the application.
 
+## Attribution
 
-Make sure you have these dependencies installed and properly configured before running the application.
+The previous README referenced [Asirwad/ATM-management-system](https://github.com/Asirwad/ATM-management-system) as the source project. That reference is preserved here for attribution. This repository should not be presented as an entirely original implementation; a detailed list of adaptations is not currently documented.
 
-## Contact Information
-For any questions, suggestions, or feedback, please feel free to reach out to the project maintainer at yaramohammadsa@gmail.com .
+## Contact
+
+[Yara Mohammad](https://github.com/iiYARA) · [Email](mailto:YaraMohammadSA@gmail.com)
 
